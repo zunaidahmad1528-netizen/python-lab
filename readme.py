@@ -7,3 +7,9 @@ print(type(collection))
 collection = {}
 print(collection)
 print(type(collection))
+collection = {1,2,3,3.5,33.44, "mohd", True, False, "zunaid"}
+print(collection)
+print(type(collection))
+
+collection.add(29)
+print(collection)
