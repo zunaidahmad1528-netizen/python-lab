@@ -1,0 +1,1 @@
+# quick smoke test to verify environment imports\nimport sys\ntry:\n    import pandas as pd\n    import matplotlib\n    import seaborn\nexcept Exception as e:\n    print('Import failed:', e)\n    sys.exit(1)\nprint('Imports OK')\nprint('pandas', pd.__version__)\nprint('matplotlib', matplotlib.__version__)\nprint('seaborn', seaborn.__version__)\n
